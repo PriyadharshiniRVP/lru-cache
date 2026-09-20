@@ -43,30 +43,30 @@ lru-cache/
 ## How to Run
 
 ### 1. Install dependencies
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+
 
 ### 2. Run tests
-\`\`\`bash
+```bash
 pytest tests/ -v
-\`\`\`
+
 
 ### 3. Start the API server
-\`\`\`bash
+```bash
 uvicorn app.main:app --reload
-\`\`\`
+
 
 Then open http://127.0.0.1:8000/docs to try the endpoints interactively.
 
 ### 4. Running BenchMarks Yourself
 
-\`\`\`bash
+```bash
 python benchmark/benchmark.py
-\`\`\`
+
 ## Benchmark Results
 
-The benchmark sends 500 requests per run (70% reads, 30% writes) with a cache capacity of 6. The "Key Range" is the number of unique keys the workload uses. A smaller key range means the working set fits in the cache; a larger key range means the working set exceeds capacity and forces eviction.
+The benchmark sends 500 requests per run (70% reads, 30% writes) with a cache capacity of 6. The `Key Range` is the number of unique keys the workload uses. A smaller key range means the working set fits in the cache; a larger key range means the working set exceeds capacity and forces eviction.
 
 | Key Range | Hit Rate |
 |-----------|----------|
