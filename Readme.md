@@ -11,9 +11,10 @@ for both `get` and `put` by combining a hash map (dict) with a doubly linked lis
 
 ## Why this project?
 
-- Demonstrates understanding of a classic data structure interview problem.
+- Demonstrates understanding of a classic data structures like doubly linked list and hashmap.
 - Shows how to expose a data structure as a service via a REST API.
 - Benchmarks hit/miss rate to measure cache effectiveness.
+
 
 ## Tech Stack
 
