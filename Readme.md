@@ -43,6 +43,11 @@ lru-cache/
 └── .gitignore
 ```
 
+## Live Demo
+**Live Demo:** [https://lru-cache-sakg.onrender.com/docs](https://lru-cache-sakg.onrender.com/docs)
+
+> Note: This service runs on Render's free tier and may take ~30 seconds to wake up after inactivity.
+
 ## How to Run
 
 ### 1. Install dependencies
