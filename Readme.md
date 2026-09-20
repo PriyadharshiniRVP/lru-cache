@@ -23,6 +23,7 @@ for both `get` and `put` by combining a hash map (dict) with a doubly linked lis
 
 ## Project Structure
 
+```
 lru-cache/
 ├── app/
 │ ├── init.py
@@ -39,6 +40,7 @@ lru-cache/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## How to Run
 
