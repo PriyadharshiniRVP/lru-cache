@@ -45,16 +45,19 @@ lru-cache/
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
 
 
 ### 2. Run tests
 ```bash
 pytest tests/ -v
+```
 
 
 ### 3. Start the API server
 ```bash
 uvicorn app.main:app --reload
+```
 
 
 Then open http://127.0.0.1:8000/docs to try the endpoints interactively.
@@ -63,6 +66,7 @@ Then open http://127.0.0.1:8000/docs to try the endpoints interactively.
 
 ```bash
 python benchmark/benchmark.py
+```
 
 ## Benchmark Results
 
