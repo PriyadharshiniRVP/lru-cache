@@ -3,7 +3,7 @@ from app.routes import router
 
 app = FastAPI(
     title= "LRU Cache Service",
-    description= "An project using doubly linked list and a dictionary to understand the LRU Caches",
+    description= "A from-scratch LRU cache implemented with a hash map and doubly linked list, exposed as a REST API.",
     version="1.0.0"
 )
 
